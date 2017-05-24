@@ -31,6 +31,7 @@
             android:orientation="vertical">
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -45,32 +46,106 @@
 
             </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <LinearLayout
+                android:id="@+id/signing_layout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <EditText
-                    android:id="@+id/password"
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/pass_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_password"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="@string/action_sign_in"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/email_sign_in_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/prompt_password"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
-                    android:maxLines="1"
-                    android:singleLine="true"/>
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/cadre"
+                    android:text="@string/action_sign_in"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
 
-            </android.support.design.widget.TextInputLayout>
+                <Button
+                    android:id="@+id/email_register_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/cadre"
+                    android:text="@string/action_register"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    />
 
-            <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
+                <Button
+                    android:id="@+id/google_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/google_button"
+                    android:text="@string/google_login"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/reset_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/reset_password"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="italic"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/reset_layout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
-                android:textStyle="bold"/>
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <Button
+                    android:id="@+id/submit_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/cadre"
+                    android:text="@string/submit"
+                    />
+
+                <TextView
+                    android:id="@+id/cancel_reset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/cancel"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="italic"/>
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "1027958068045",
+    "firebase_url": "https://menutium-c5be0.firebaseio.com",
+    "project_id": "menutium-c5be0",
+    "storage_bucket": "menutium-c5be0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027958068045:android:b0b81c6046c9c573",
+        "android_client_info": {
+          "package_name": "project.iobird.menutium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027958068045-rn2mfcgb29643oto5jd8jgsvfbo7rvds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.iobird.menutium",
+            "certificate_hash": "e90ada0035cd24d9f541c7a56292355a09d2e28e"
+          }
+        },
+        {
+          "client_id": "1027958068045-p3u627l7rpelr96jbmbiicvo6qtpfp1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.iobird.menutium",
+            "certificate_hash": "7fda55936e9d8ca194828594a6601bb0068d4cbe"
+          }
+        },
+        {
+          "client_id": "1027958068045-30r87evbam09ag238ggaqc0qmpqn340b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-TZ0Q9AUUZ5495vadp9pVd5wN_16QDZk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027958068045-dfd0n98sccfrroh33sgfsnitg91ieh3a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "iobird.MenuTium-Pro-iPhone",
+                "app_store_id": "1234078564"
+              }
+            },
+            {
+              "client_id": "1027958068045-30r87evbam09ag238ggaqc0qmpqn340b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027958068045:android:1308a8603093ab53",
+        "android_client_info": {
+          "package_name": "com.iobird.stylex.diamant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027958068045-30r87evbam09ag238ggaqc0qmpqn340b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-TZ0Q9AUUZ5495vadp9pVd5wN_16QDZk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027958068045:android:4b4a46b45f8f6215",
+        "android_client_info": {
+          "package_name": "project.iobird.menutiumchef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027958068045-3e0t8p97t81pv5larfcqovjff0eh9p4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.iobird.menutiumchef",
+            "certificate_hash": "7fda55936e9d8ca194828594a6601bb0068d4cbe"
+          }
+        },
+        {
+          "client_id": "1027958068045-30r87evbam09ag238ggaqc0qmpqn340b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-TZ0Q9AUUZ5495vadp9pVd5wN_16QDZk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027958068045-dfd0n98sccfrroh33sgfsnitg91ieh3a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "iobird.MenuTium-Pro-iPhone",
+                "app_store_id": "1234078564"
+              }
+            },
+            {
+              "client_id": "1027958068045-30r87evbam09ag238ggaqc0qmpqn340b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
